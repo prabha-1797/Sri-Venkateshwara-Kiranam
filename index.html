@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Venkateshwara Kiranam and General Stores</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero {
+            background: url('image.png') no-repeat center center/cover;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .typing-effect {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 4s steps(30, end), blink .5s step-end infinite;
+            border-right: 3px solid white;
+        }
+        @keyframes typing {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        @keyframes blink {
+            50% { border-color: transparent; }
+        }
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .brands img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold typing-effect">Celebrating 25 Years of Trust and Quality!</h1>
+            <p class="lead fade-in">Sri Venkateshwara Kiranam and General Stores - Serving fresh and affordable groceries to your family since 2000.</p>
+            <a href="#about" class="btn btn-primary btn-lg fade-in">Explore Our Story</a>
+        </div>
+    </header>
+
+<section id="about" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Our Journey</h2>
+        <p>Founded in 2000, Sri Venkateshwara Kiranam and General Stores has been a cornerstone of the community, providing quality groceries and exceptional service. From humble beginnings to becoming your trusted grocery partner, thank you for supporting us for 25 amazing years!</p>
+    </div>
+</section>
+
+<section id="brands" class="py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Trusted by Leading Brands</h2>
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9ttoIFa6rzg8B7xeOzuXd10sXwRJ7ICalw&s" alt="Vestige" style="width: 120px; height: 120px; object-fit: contain;">
+            <img src="https://cdn11.bigcommerce.com/s-yyr3tzu8q0/images/stencil/1280x1280/products/161/713/Herbalife_Nutrition_-_Square_Logo__72645.1591373002.png?c=2?imbypass=on" alt="Herbalife" style="width: 120px; height: 120px; object-fit: contain;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Amway_%28logo%29.svg/1200px-Amway_%28logo%29.svg.png" alt="Amway" style="width: 120px; height: 120px; object-fit: contain;">
+            <img src="https://play-lh.googleusercontent.com/CXFK84kyQkWMBlH9RW7WJ6vJURhXG6966PXH0AnvXQNBgaBJZ9sWehC2A9zYPgEyfj1h=w240-h480-rw" alt="IMC" style="width: 120px; height: 120px; object-fit: contain;">
+        </div>
+    </div>
+</section>
+
+<section id="products" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">What We Offer</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Fresh Produce</p>
+                <div class="product-card">
+                    <img src="https://c8.alamy.com/comp/2GN4EKH/garlic-onion-ginger-and-potatoes-essential-vegetables-for-sale-in-a-market-in-territy-bazar-kolkata-west-bengal-india-2GN4EKH.jpg" style="width: 400px; height: 400px;" alt="Fresh Produce" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>Groceries & Essentials</p>
+                <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU43Rs8ksa_GHK9FxXStMlWFeFvqUABBaHKA&s" style="width: 400px; height: 400px;" alt="Groceries & Essentials" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <p>Snacks & Beverages</p>
+                <div class="product-card">
+                    <img src="https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_center,w_730,h_913/k%2FDesign%2Fk-essentials-grocery-2021%2FLeads%2Fkess-2021-grocery-lead-vertical" style="width: 400px; height: 400px;" alt="Snacks & Beverages" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .product-card img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .product-card img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+
+<section id="specials" class="py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Celebrate with Us!</h2>
+        <p>Enjoy exclusive anniversary discounts and special bundles. Join our loyalty program to earn rewards!</p>
+        <a href="#contact" class="btn btn-success btn-lg">Grab Our Anniversary Deals!</a>
+    </div>
+</section>
+
+<section id="testimonials" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Our Customers Say It Best</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <p>"The freshest produce and friendliest service!" - Venkatesh</p>
+            </div>
+            <div class="col-md-4">
+                <p>"I've been shopping here for 15 years. Always reliable!" - Madu</p>
+            </div>
+            <div class="col-md-4">
+                <p>"Great prices and trusted brands." - Venu</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">Contact Us</h2>
+        <p>Beside Shivani High School, Vidyanagar, Old bustand Mandamarri 504231</p>
+        <p>Phone: 8309602828, 8374350785</p>
+        <p>Email: murthygunda1976@gmail.com</p>
+        <p><a href="https://maps.app.goo.gl/gf25qTVZJngBKuGu8" target="_blank" class="btn btn-info">View on Google Maps</a></p>
+    </div>
+</section>
+
+<footer class="py-3">
+    <p class="mb-0">&copy; 2025 Sri Venkateshwara Kiranam and General Stores. Celebrating 25 Years of Service.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
